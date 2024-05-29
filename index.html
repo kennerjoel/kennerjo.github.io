@@ -1,1 +1,46 @@
-<hi>seguimiento de huerta</hi>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seguimiento de Plantas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Seguimiento de Plantas</h1>
+        </div>
+    </header>
+    <main>
+        <section id="welcome">
+            <div class="container">
+                <h2>Bienvenido</h2>
+                <p>¡Explora el crecimiento de diferentes tipos de plantas y escanea códigos QR para obtener más información!</p>
+            </div>
+        </section>
+        <section id="plants">
+            <div class="container">
+                <h2>Plantas Disponibles</h2>
+                <ul id="plantList">
+                    <!-- Aquí se generará dinámicamente la lista de plantas -->
+                </ul>
+            </div>
+        </section>
+        <section id="qrScanner">
+            <div class="container">
+                <h2>Escaneo de Código QR</h2>
+                <p>Haz clic en el botón para escanear un código QR desde una imagen:</p>
+                <input type="file" id="fileInput">
+                <button id="scanButton">Escanear QR</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Seguimiento de Plantas</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
